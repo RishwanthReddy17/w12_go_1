@@ -1,4 +1,4 @@
-# w10_go_1
+# w12_go_1
 
 ```bash
 docker build -t dw11:0.1 .
