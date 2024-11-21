@@ -37,7 +37,7 @@ mongo:
 
 ---
 Your script sends the user's public IP address (obtained via the https://api.ipify.org API) to your local server at http://localhost/api/visitors. Here's an analysis of how it works, its purpose, and a few tips for improvement.
-
+``` bash
 <script>
 
         fetch('https://api.ipify.org?format=json')
@@ -67,7 +67,9 @@ Your script sends the user's public IP address (obtained via the https://api.ipi
  - Sends the IP address to a local server endpoint using a POST request with a JSON payload.
 
             .catch(error => console.error('Error:', error));
-            
+
 - Captures and logs any errors during the fetch operations.
 
     </script>
+
+```
