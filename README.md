@@ -35,7 +35,7 @@ docker run:
 mongo:
 - Specifies the Docker image to use. In this case, the official MongoDB image.
 
----
+
 Your script sends the user's public IP address (obtained via the https://api.ipify.org API) to your local server at http://localhost/api/visitors. Here's an analysis of how it works, its purpose, and a few tips for improvement.
 ``` bash
 <script>
