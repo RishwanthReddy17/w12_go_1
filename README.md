@@ -45,7 +45,7 @@ Your script sends the user's public IP address (obtained via the https://api.ipi
 - This fetches the public IP address of the user and parses the response JSON to extract the ip value.
 
             .then(data => {
-                fetch('http://localhost/api/visitors', {
+                fetch('http://localhost/api/vistors', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
