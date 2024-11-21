@@ -11,8 +11,12 @@ go test
 go test -v
 go test -v -run TestFileServer
 go test ./...
-
 docker run -d --name mongodb -p 27017:27017 -v mongo-data:/data/db mongo:latest
+go get go.mongodb.org/mongo-driver/mongo
+go get go.mongodb.org/mongo-driver/mongo/options
+
+"go.mongodb.org/mongo-driver/mongo"
+"go.mongodb.org/mongo-driver/mongo/options"
 
 ```
 
